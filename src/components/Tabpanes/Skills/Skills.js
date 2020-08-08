@@ -44,7 +44,7 @@ const skills = (props) => {
                     <Card className="shadow-lg border-0">
                         <Row className="">
                             <Col className="lg-4">
-                                <Image source="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" name="Javascript" height="30px" width="30px" />
+                                <Image source="./assets/images/JavaScript-logo.png" name="Javascript" height="30px" width="30px" />
                             </Col>
                             <Col className="lg-4">
                                 <span>Javascript</span>

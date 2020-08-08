@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Container from './components/UI/Container/Container'
 import Row from './components/UI/Row/Row';
@@ -8,12 +8,16 @@ import Navbar from './components/Navbar/Navbar';
 import Image from './components/Image/Image'
 import Hr from './components/Hr/Hr';
 import Hyperlink from './components/HyperLink/Hyperlink';
-import Navbody from './components/Navbody/Navbody';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import About from './components/Tabpanes/About/About'
+import Projects from './components/Tabpanes/Projects/Projects'
+import Skills from './components/Tabpanes/Skills/Skills'
+import Contact from './components/Tabpanes/Contact/Contact'
 
-class App extends Component {
+const App = () => {
 
-  render() {
-    return (
+  return (
+    <Router>
       <div className="App vh-100 d-flex justify-content-center align-items-center bg-seablue text-consolas">
         <Container >
           <Row className="">
@@ -47,7 +51,14 @@ class App extends Component {
                     </Row>
                   </Col>
                   <Col className="lg-9">
-                    <Navbody id="v-pills-tabcontent" />
+                    <div className="" style={{ overflowY: "scroll", overflowX: "hidden", height: "75vh" }}>
+                      <Switch>
+                        <Route path="/about" component={About} />
+                        <Route path="/projects" component={Projects} />
+                        <Route path="/skills" component={Skills} />
+                        <Route path="/contact" component={Contact} />
+                      </Switch>
+                    </div>
                   </Col>
                 </Row>
               </Card>
@@ -55,8 +66,8 @@ class App extends Component {
           </Row>
         </Container >
       </div >
-    );
-  }
+    </Router >
+  );
 }
 
 export default App;

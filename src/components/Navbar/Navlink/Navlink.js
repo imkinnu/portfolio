@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navlink = (props) => {
-    const { name, className, id, href, aria_selected } = props;
+    const { name, className, id, to } = props;
     return (
-        <a class={className} id={id} data-toggle="pill" href={href} role="tab" aria-selected={aria_selected}>{name}</a>
+        <Link class={className} id={id} to={to} >{name}</Link>
     )
 }
 
