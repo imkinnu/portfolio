@@ -6,8 +6,8 @@ import Col from './../../UI/Col/Col';
 const projects = (props) => {
     const { className } = props;
     return (
-        <div class={className}>
-            <h6 className="text-left font-weight-bold"><i class="fa fa-star text-success" aria-hidden="true"></i> PROJECTS</h6>
+        <div className={className}>
+            <h6 className="text-left font-weight-bold"><i className="fa fa-star text-success" aria-hidden="true"></i> PROJECTS</h6>
             <Hr className="bg-seablue w-75" margin="2px !important" width="90px" />
             <div className="scroll-automatic">
                 <Row className="mb-3">

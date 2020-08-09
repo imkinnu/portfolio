@@ -14,8 +14,6 @@ import Projects from './components/Tabpanes/Projects/Projects'
 import Skills from './components/Tabpanes/Skills/Skills'
 import Contact from './components/Tabpanes/Contact/Contact'
 import ColorSwitcher from './components/ColorSwitcher/ColorSwitcher'
-import col from './components/UI/Col/Col';
-
 const App = () => {
 
   let [color, setColor] = useState('#0091ea');
@@ -52,23 +50,23 @@ const App = () => {
                     <Row className="d-flex justify-content-center align-items-center">
                       <Col className="lg-2">
                         <Hyperlink href="#!" className="text-seablue" >
-                          <i class="fa fa-github" aria-hidden="true"></i>
+                          <i className="fa fa-github" aria-hidden="true"></i>
                         </Hyperlink>
                       </Col>
                       <Col className="lg-2">
                         <Hyperlink href="#!" className="text-seablue" >
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
+                          <i className="fa fa-facebook" aria-hidden="true"></i>
                         </Hyperlink>
                       </Col>
                       <Col className="lg-2">
                         <Hyperlink href="#!" className="text-seablue" >
-                          <i class="fa fa-linkedin" aria-hidden="true"></i>
+                          <i className="fa fa-linkedin" aria-hidden="true"></i>
                         </Hyperlink>
                       </Col>
                     </Row>
                   </Col>
                   <Col className="lg-9">
-                    <div className="" style={{ overflowY: "scroll", overflowX: "hidden", height: "75vh" }}>
+                    <div className="" style={{ overflowY: "scroll", overflowX: "hidden", height: "85vh" }}>
                       <Switch>
                         <Route exact path="/" component={About} />
                         <Route path="/about" component={About} />
@@ -78,6 +76,7 @@ const App = () => {
                       </Switch>
                     </div>
                   </Col>
+
                 </Row>
               </Card>
             </Col>

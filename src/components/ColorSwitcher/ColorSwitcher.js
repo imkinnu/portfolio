@@ -19,7 +19,7 @@ const ColorSwitcher = ({ changeColor }) => {
                 {
                     colors.map(item => {
                         return (
-                            <li className="li" style={{
+                            <li key={item} className="li" style={{
                                 backgroundColor: `${item}`
                             }} onClick={() => changeColor(item)}></li>
                         )
