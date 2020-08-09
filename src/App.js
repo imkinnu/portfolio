@@ -49,17 +49,17 @@ const App = () => {
                     <Hr className="bg-seablue mt-5 w-75 mx-auto" margin="16px" width="90px" />
                     <Row className="d-flex justify-content-center align-items-center">
                       <Col className="lg-2">
-                        <Hyperlink href="#!" className="text-seablue" >
+                        <Hyperlink target="_blank" href="https://github.com/imkinnu" className="text-seablue" >
                           <i className="fa fa-github" aria-hidden="true"></i>
                         </Hyperlink>
                       </Col>
                       <Col className="lg-2">
-                        <Hyperlink href="#!" className="text-seablue" >
+                        <Hyperlink target="_blank" href="https://www.facebook.com/kirantirumalasette" className="text-seablue" >
                           <i className="fa fa-facebook" aria-hidden="true"></i>
                         </Hyperlink>
                       </Col>
                       <Col className="lg-2">
-                        <Hyperlink href="#!" className="text-seablue" >
+                        <Hyperlink target="_blank" href="https://www.linkedin.com/in/kiran-tirumalasetti-51b0b9187/" className="text-seablue" >
                           <i className="fa fa-linkedin" aria-hidden="true"></i>
                         </Hyperlink>
                       </Col>
