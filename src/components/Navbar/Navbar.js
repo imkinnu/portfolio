@@ -3,7 +3,7 @@ import Navlink from './Navlink/Navlink';
 
 import { useLocation } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({ bgcolor }) => {
     let [state, setState] = useState([]);
     let [active, setActive] = useState('');
     useEffect(() => {
@@ -29,14 +29,13 @@ const Navbar = () => {
     return (
         <div>
             <LocationTrack setActive={setActive} />
-            <div className="nav flex-column nav-pills mt-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <div className="nav flex-column nav-pills mt-5">
                 {state.map(item => {
                     let className = "nav-link";
-                    console.log(item.content.toLowerCase())
                     if ("/" + item.content.toLowerCase() === active) {
                         className += ' active';
                     }
-                    return (<Navlink key={item.name} name={item.name} className={className} id="" to={item.name.toLowerCase()} />);
+                    return (<Navlink key={item.name} name={item.name} bgcolor={bgcolor} className={className} id="" to={item.name.toLowerCase()} />);
                 })}
             </div>
         </div>

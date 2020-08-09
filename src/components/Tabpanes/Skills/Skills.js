@@ -6,14 +6,14 @@ import Card from './../../Card/Card';
 import Image from './../../Image/Image';
 
 const skills = (props) => {
-    const { className, id } = props;
+    const { className } = props;
     return (
-        <div class={className} id={id} role="tabpanel">
+        <div class={className} >
             <h6 className="text-left font-weight-bold"><i class="fa fa-star text-success" aria-hidden="true"></i> SKILLS</h6>
             <Hr className="bg-seablue w-75" margin="2px !important" width="90px" />
             <h6 className="text-left">Programming/Markup Languages</h6>
             <Hr className="bg-seablue w-75" margin="2px !important" width="90px" />
-            <Row className="">
+            <Row className="m-2">
                 <Col className="lg-6">
                     <Card className="shadow-lg border-0">
                         <Row className="">
@@ -39,7 +39,7 @@ const skills = (props) => {
                     </Card>
                 </Col>
             </Row>
-            <Row className="mt-2">
+            <Row className="m-2">
                 <Col className="lg-6">
                     <Card className="shadow-lg border-0">
                         <Row className="">
@@ -65,7 +65,7 @@ const skills = (props) => {
                     </Card>
                 </Col>
             </Row>
-            <Row className="mt-2">
+            <Row className="m-2">
                 <Col className="lg-6">
                     <Card className="shadow-lg border-0">
                         <Row className="">
@@ -91,7 +91,7 @@ const skills = (props) => {
                     </Card>
                 </Col>
             </Row>
-            <Row className="mt-2">
+            <Row className="m-2">
                 <Col className="lg-6">
                     <Card className="shadow-lg border-0">
                         <Row className="">
@@ -117,7 +117,7 @@ const skills = (props) => {
                     </Card>
                 </Col>
             </Row>
-            <Row className="mt-2">
+            <Row className="m-2">
                 <Col className="lg-6">
                     <Card className="shadow-lg border-0">
                         <Row className="">

@@ -11,10 +11,10 @@ const contact = (props) => {
         <div class={className} id={id} role="tabpanel">
             <h6 className="text-left font-weight-bold"><i class="fa fa-star text-success" aria-hidden="true"></i> Contact</h6>
             <Hr className="bg-seablue w-75" margin="2px !important" width="90px" />
-            <Row className="">
+            <Row className="m-2">
                 <Col className="lg-6">
                     <Card className="shadow-lg border-0">
-                        <Row className="">
+                        <Row className="m-2">
                             <Col className="lg-4">
                                 <Image source="./assets/images/fb-logo.png" name="Facebook" height="30px" width="40px" />
                             </Col>
@@ -31,7 +31,7 @@ const contact = (props) => {
                 </Col>
                 <Col className="lg-6">
                     <Card className="shadow-lg border-0">
-                        <Row className="">
+                        <Row className="m-2">
                             <Col className="lg-4">
                                 <Image source="./assets/images/whatsapp-logo.png" name="Whatsapp" height="30px" width="30px" />
                             </Col>
@@ -47,7 +47,7 @@ const contact = (props) => {
                     </Card>
                 </Col>
             </Row>
-            <Row className="mt-2">
+            <Row className="m-2">
                 <Col className="lg-6">
                     <Card className="shadow-lg border-0">
                         <Row className="">
