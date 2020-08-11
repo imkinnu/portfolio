@@ -14,6 +14,7 @@ import Projects from './components/Tabpanes/Projects/Projects'
 import Skills from './components/Tabpanes/Skills/Skills'
 import Contact from './components/Tabpanes/Contact/Contact'
 import ColorSwitcher from './components/ColorSwitcher/ColorSwitcher'
+import MobileNotCompatible from './components/MobileNotCompatible/MobileNotCompatible';
 const App = () => {
 
   let [color, setColor] = useState('#0091ea');
@@ -29,11 +30,14 @@ const App = () => {
     setColor(color);
   }
 
+  //check whethe opened one is mobile or web
+  let isMobile = window.orientation > -1;
 
   return (
     <Router basename='/'>
       <div style={style.bgcolor} className="App vh-100 d-flex justify-content-center align-items-center bg-seablue text-consolas">
         <Container >
+          <MobileNotCompatible checkMobile={isMobile} />
           <Row className="">
             <Col className="lg-12">
               <Card className="shadow-lg border-0">
