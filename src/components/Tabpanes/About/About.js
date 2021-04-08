@@ -8,11 +8,15 @@ const about = (props) => {
             <h6 className="text-left font-weight-bold"><i class="fa fa-star text-success" aria-hidden="true"></i> ABOUT</h6>
             <Hr className="bg-seablue w-75" margin="2px !important" width="90px" />
 
-            <p className="text-left">Having around 1.6 year(s) of experience in Web Application Development, Analysis, Design,Customization,Coordination of Development and Deployment across the software solutions</p>
-            <p className="text-left">Having very good knowledge on <b>React JS,Bootstrap,PHP</b> Responsible for development of new highly-responsive, web-based user interface and Building <b>reusable components</b> and front-end libraries for future use </p>
-            <p className="text-left">Work with product team and graphic designers Have very good understanding of <b>REST API</b> ,Have very good hands on <b>React Redux,hooks</b> to Develop a flexible and well-structured front-end architecture, along with the APIs to support it.</p>
-            <p className="text-left">Specialized in writing the web services using <b>PHP</b> to support across various platforms which can help us to integrate React with Third Party apps</p>
-            <p className="text-left">Have excellent quality of adapting to latest technology with <b>analytical, logical</b> and innovative knowledge to provide excellent software solutions. <b>Productive,</b> dedicated and capable of working independently.</p>
+            <p className="text-left content">Having <b>2+ year(s)</b> of experience in <b>Web & Mobile </b>Application Development, Building quality websites and Mobile applications with <b>Bootstrap, CSS, and JavaScript,MYSQL, React Native</b></p>
+            <p className="text-left content">Expertize in PHP, Bootstrap Oriented Web Design, Designing <b>Dashboards</b>, Reports, end to end web and mobile app development.</p>
+            <p className="text-left content">Motivated designer and developer with experience creating custom websites through PHP and Bootstrap</p>
+            <p className="text-left content">Strong creative and analytical skills, Team player with an eye for detail. CSS, JavaScript and MYSQL.</p>
+            <p className="text-left content">Have very good understanding on making use of <b>REST API's</b> which can help us to integrate our web (or) mobile app with <b>Third Party apps</b></p>
+            <p className="text-left content">Skilled in creating Dashboards, Reports as per the user requirement, Responsive Design</p>
+            <p className="text-left content">Have Sound Debugging and Performance tuning Skills.</p>
+            <p className="text-left content"><b>Migrated</b> data to PHP from different Environments like <b>Java, .Net</b> etc...</p>
+            <p className="text-left content">Have excellent quality of adapting to latest technology with analytical, logical and innovative knowledge to provide excellent software solutions. <b>Productive, dedicated and capable of working independently.</b></p>
             <h6 className="text-left font-weight-bold"><i class="fa fa-star text-success" aria-hidden="true"></i> WORK EXPERIENCE</h6>
             <Hr className="bg-seablue w-75" margin="2px !important" width="90px" />
             <p className="text-left">Currently Working as <b>Web Application Developer</b> at Entro Labs Pvt Ltd since March 2019 to till date</p>
